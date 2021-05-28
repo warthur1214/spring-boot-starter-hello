@@ -5,6 +5,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
+ * hello自动配置类.
+ *
  * @author yongqiang.wu
  * @date 2021/05/28
  */

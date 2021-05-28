@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.experimental.Accessors;
 
 /**
+ * hello 服务类.
+ *
  * @author yongqiang.wu
  * @date 2021/05/28
  */

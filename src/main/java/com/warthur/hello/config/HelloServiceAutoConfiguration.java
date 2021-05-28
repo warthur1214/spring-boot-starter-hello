@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * hello 自动配置类.
+ *
  * @author yongqiang.wu
  * @date 2021/05/28
  */
@@ -23,6 +25,9 @@ public class HelloServiceAutoConfiguration {
     @Autowired
     private HelloServiceProperties helloServiceProperties;
 
+    /**
+     * hello service bean.
+     */
     @Bean
     @ConditionalOnMissingBean(HelloService.class)
     public HelloService helloService() {
